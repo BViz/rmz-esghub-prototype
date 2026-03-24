@@ -303,7 +303,7 @@ export default function Home() {
                 className="absolute inset-0 w-full h-full object-cover object-bottom transition-transform duration-700 group-hover:scale-105"
                 onError={(e) => {
                   // Fallback if the image is not yet uploaded
-                  e.currentTarget.src = {`${import.meta.env.BASE_URL}esg-framework.png`};
+                  e.currentTarget.src = `${import.meta.env.BASE_URL}esg-framework.png`;
                   e.currentTarget.className = "absolute inset-0 w-full h-full object-cover";
                 }}
               />
