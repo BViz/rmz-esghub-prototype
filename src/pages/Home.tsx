@@ -298,7 +298,7 @@ export default function Home() {
             {/* Using aspect ratio and object-cover to crop out the top title text */}
             <div className="w-full aspect-[1.55] relative overflow-hidden">
               <img 
-                src="/esg-framework.png" 
+                src="/esg-framework.png"
                 alt="ESG Management Framework" 
                 className="absolute inset-0 w-full h-full object-cover object-bottom transition-transform duration-700 group-hover:scale-105"
                 onError={(e) => {
